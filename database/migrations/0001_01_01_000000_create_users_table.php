@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('description')->nullable();
             $table->string('grad');
             $table->string('birth_date');
-            $table->string('password')->unique();
+            $table->string('password');
             $table->boolean('Admin')->nullable();
             $table->rememberToken();
             $table->timestamps();
